@@ -1,0 +1,25 @@
+A. nama aplikasi = FilmPopuleer-taufan
+B. fungi/guna app = fungsi dari aplikasi yang saya kembangkan adalah menampilkan
+list dari film yang sedang populer dan akan update secara otomatis serta
+akan menampilkan detail film seperti deskripsi dari film tersebut
+C. webservice yang digunakan : retofit (https://api.themoviedb.org/3/)
+D. sumber belajar : https://youtu.be/bsdLZeDRNcQ || https://www.geeksforgeeks.org/android-build-a-movie-app-using-retrofit-and-mvvm-architecture-with-kotlin/
+
+
+
+
+1. data binding = pada class BaseFragment.kt line 20 hingga 28 dan class DetailsFragment line 22-30
+2. View.model = pada class HomeViewModel.kt dan live data terdapat pada class HomeFragment.kt line 80
+3. adapter= pada class MoviesAdapter.kt pada line 19 hingga 26
+4. class data = pada class Imagaes.kt line 10-26 dan class Movie.kt line 10-42
+5. network Api = class NetworkModule.kt pada line 29-34 dan line 52-61
+6. repository = pada class MoviesRepository.kt line 46-53
+7. RoomDB = Pada class MovieDatabase.kt line 15 dan 23
+8. Dao = pada class MovieDao.kt line 17 dan 20 terdapat query insert yang berfungsi untuk
+menyisipkan parameter ke dalam table dan pada line 30 - 33 terdapat query select yang berfungsi untuk menampilkan 
+9. entity = pada class ConfigurationResponse.kt line 9 dan Class MovieResponse line 9
+
+https://github.com/TaufanBudiSusatya/FilmPopuler-Taufan
+
+link gdrive base.apk:
+https://drive.google.com/file/d/1eZenDxSVerIVQrvp7eHw13ri1VjT6jnU/view?usp=share_link
